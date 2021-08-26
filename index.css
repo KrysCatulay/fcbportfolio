@@ -10,13 +10,19 @@ h1, h2 {
 	font-family: "Montserrat", sans-serif;
 }
 
+h1, p {
+	color: #becae4;
+}
+
 img {
 	height: 250px;
 	width: 250px;
+	border-radius: 50%;
+	margin-bottom: 15px;
 }
 
 #landing {
-	height: 80vh;
+	height: 85vh;
 	/*center contect vertically using flexbox*/
 	display: flex;
 	flex-direction: column;
@@ -41,9 +47,9 @@ img {
 	color: white;
 	padding: 25;
 	height: 200px;
-	border: 5px solid #f2f2f2;
+	border: 5px solid #0000CD;
 	margin: 20px;
-	width: 75%;
+	width: 70%;
 	border-radius: 4px;
 }
 
@@ -53,11 +59,14 @@ ul {
 }
 
 h2 {
-	color: #007bff;
+	color: #becae4;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
+.navbar {
+	background-color: midnightblue;
+}
 /*CSS Specificity*/
